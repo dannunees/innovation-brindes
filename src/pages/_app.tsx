@@ -8,6 +8,7 @@ import { QueryClient, QueryClientProvider } from 'react-query'
 import { AuthProvider } from 'core/contexts/AuthContext'
 import { getTitle } from 'utils/getTitle'
 import { ToastContainer } from 'react-toastify'
+import FloatingVideoButton from 'components/FloatingButton'
 
 function App({ Component, pageProps }: AppProps) {
   const queryClient = new QueryClient()
@@ -25,6 +26,7 @@ function App({ Component, pageProps }: AppProps) {
           />
 
           <ToastContainer />
+          <FloatingVideoButton />
 
           <Head>
             <title>{getTitle()}</title>
