@@ -1,0 +1,15 @@
+services:
+  innovation-brindes-app:
+    image: innovation-brindes-app
+    container_name: innovation-brindes-app
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_BASE_URL=https://apihomolog.innovationbrindes.com.br/api/innova-dinamica
+    command: npm run dev
