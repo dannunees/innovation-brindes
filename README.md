@@ -59,7 +59,7 @@ Este é um desafio técnico desenvolvido para a empresa **Innovation Brindes**. 
 
 ```sh
  git clone https://github.com/dannunees/innovation-brindes
- cd innovation-gifts
+ cd innovation-brindes
 ```
 
 ### 2. Rodar a aplicação com Docker
