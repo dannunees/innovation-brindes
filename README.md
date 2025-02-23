@@ -55,7 +55,7 @@ Este é um desafio técnico desenvolvido para a empresa **Innovation Brindes**. 
 ### 1. Clonar o repositório
 
 ```sh
- git clone https://github.com/seu-usuario/innovation-gifts.git
+ git clone https://github.com/dannunees/innovation-brindes
  cd innovation-gifts
 ```
 
