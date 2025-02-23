@@ -67,7 +67,7 @@ const FloatingVideoButton = () => {
         <ModalContent bg="transparent" boxShadow="none" maxW="800px" mx="auto">
           <ModalCloseButton color="white" />
           <ReactPlayer
-            url="/assets/images/preview.mp4"
+            url="https://www.youtube.com/watch?v=mcjgrKFz_BU"
             playing
             loop
             controls
