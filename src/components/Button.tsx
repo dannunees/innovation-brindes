@@ -32,6 +32,11 @@ const Button = ({
       fontWeight="semibold"
       onClick={onClick}
       isDisabled={isLoading}
+      _hover={{
+        bg:'white',
+        color: '#4CB500',
+        border: '1px solid #4CB500'
+      }}
     >
       {isLoading ? <Spinner /> : title}
     </ChakraButton>

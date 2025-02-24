@@ -161,6 +161,11 @@ const ProductItem = ({ product }: ProductItemProps) => {
         color="white"
         fontWeight="bold"
         fontSize="1.4rem"
+        _hover={{
+          bg: 'white',
+          color: '#4CB500',
+          border: '1px solid #4CB500'
+        }}
       >
         CONFIRA
       </Button>
