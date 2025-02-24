@@ -33,7 +33,7 @@ const Button = ({
       onClick={onClick}
       isDisabled={isLoading}
       _hover={{
-        bg:'white',
+        bg: 'white',
         color: '#4CB500',
         border: '1px solid #4CB500'
       }}
